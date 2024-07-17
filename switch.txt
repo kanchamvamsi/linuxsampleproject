@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo -e "a.Ban\n b.pune\n c.Delhi:\n"
+read -p "choose your cityname:" city
+case $city in
+	a)echo "you have choosen Banglore";;
+	b)echo "you have choosen pune";;
+	c)echo "you have choosen Delhi";;
+	*)echo "Invalid choice";;
+esac
